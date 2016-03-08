@@ -2,6 +2,19 @@ package concesionario;
 
 import java.util.regex.Pattern;
 
+/**
+ * Queremos modelar un concesionario de coches en Java. Nos limitaremos a las  siguientes opciones:
+ *
+ * - Alta de un coche (se pedirá matricula, color y modelo),
+ * - Baja de  un coche (por matrícula),
+ * - Mostrar un coche (por matrícula),
+ * - Mostrar concesionario (todos los coches del concesionario)
+ * - Contar el número de coches en el concesionario
+ * - Mostrar coches de un color
+ * 
+ * @author Miguel Angel López Moyano
+ * @version 1.0
+ */
 public class Coche {
 	/**
 	 * Matrícula del coche
