@@ -26,7 +26,7 @@ public class TestArrayList {
 		ArrayList arrayList=new ArrayList();
 		System.out.println("arrayList.isEmpty(): " +arrayList.isEmpty());
 		
-		Se añaden distintos elementos de distintos tipos
+		//Se añaden distintos elementos de distintos tipos
 		arrayList.add(1);
 		arrayList.add(new String("hola"));
 		arrayList.add(new String("hola"));
