@@ -1,4 +1,4 @@
-package utiles.fecha;
+package fecha;
 
 public class FechaNoValidaException extends Exception {
 
