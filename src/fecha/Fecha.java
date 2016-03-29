@@ -99,11 +99,9 @@ public class Fecha {
 	private boolean esValida(String cadena){
 		String[] array=obtenerArrayDiaMesAnno(cadena);
 		try {
-			if(esValida(Integer.parseInt(array[0]),
+			return (esValida(Integer.parseInt(array[0]),
 					Integer.parseInt(array[1])-1,
-					Integer.parseInt(array[2])))		
-				return true;
-			return false;
+					Integer.parseInt(array[2])));	
 		} catch (NumberFormatException e) {
 			return false;
 		}
