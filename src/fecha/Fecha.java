@@ -191,7 +191,8 @@ public class Fecha {
 	 */
 	void setGregorianCalendar(int dia,int mes,int anno) throws FechaNoValidaException{
 		try {
-			calendar= new GregorianCalendar(anno,mes,dia);
+			calendar= new GregorianCalendar(locale);
+			calendar.set(anno, mes, dia);
 			calendar.setLenient(false);
 			calendar.getTime();
 		} catch (Exception e) {
